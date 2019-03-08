@@ -1,7 +1,5 @@
-a=int(input("Ingresa el primer numero"))
-b=int(input("Ingresa el primer numero"))
-if a%b==0:
- print("La division de los dos numeros es exacta")
-else:
-  if a%b!=0:
-   print("La division de los dos numeros no es exacta")
+res=0
+a=int(input("Ingresa el numero:"))
+for i in range (1,a):
+ res=a%i
+ print(res)
